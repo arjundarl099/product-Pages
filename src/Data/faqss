@@ -1,0 +1,44 @@
+const reactPropsQuiz = [
+  {
+    question: "What are props in React?",
+    answer: "Props are data passed from a parent component to a child component."
+  },
+  {
+    question: "Who sends props?",
+    answer: "The parent component sends props."
+  },
+  {
+    question: "Who receives props?",
+    answer: "The child component receives props."
+  },
+  {
+    question: "Can props be modified by the child component?",
+    answer: "No, props are read-only."
+  },
+  {
+    question: "How do you pass a string prop?",
+    answer: 'title=\"React\"'
+  },
+  {
+    question: "How do you pass a number prop?",
+    answer: "age={20}"
+  },
+  {
+    question: "What is destructuring props?",
+    answer: "Extracting values directly from props, e.g. function Card({ title })."
+  },
+  {
+    question: "In which direction do props flow?",
+    answer: "From parent to child."
+  },
+  {
+    question: "Which component imports the child component?",
+    answer: "The parent component."
+  },
+  {
+    question: "Why are props used?",
+    answer: "To pass data between components."
+  }
+];
+
+export default reactPropsQuiz;
